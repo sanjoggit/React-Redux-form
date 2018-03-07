@@ -1,0 +1,43 @@
+@import '../Sass/variables';
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.sub-title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.nav{
+    ul{
+        list-style: none;
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+        .li{
+            padding: 10px;
+            background-color: $blue;
+            color: $white;
+            margin-right: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        
+            &:hover{
+                color: $black;
+            }
+        }
+                
+        .active{
+            color: $blue;
+            background-color: $white;
+            border: 1px solid $blue;
+        }
+    }
+}
+
+
+

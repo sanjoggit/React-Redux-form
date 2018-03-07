@@ -1,0 +1,23 @@
+.heading{
+    font-weight: bold;
+}
+.portfolio-title{
+    font-size: 14px;
+    color: #66757F;
+}
+
+.portfolio-link{
+    margin-top: 25px;
+}
+.portfolio-textarea{
+    margin-top: 25px;
+    height: 100px;
+}
+
+.button{
+    margin: 30px 10px 20px 0;
+}
+.button:disabled{
+    cursor: not-allowed;
+    pointer-events: stroke;
+}

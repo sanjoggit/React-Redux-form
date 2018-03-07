@@ -1,0 +1,31 @@
+.heading{
+    font-weight: bold;
+}
+hr{
+    border: 1px solid rgb(146, 146, 228);
+}
+.address1{
+    margin-top: 15px;
+}
+.country-info{
+    margin-top: 10px;
+}
+
+.button{
+    margin: 30px 10px 20px 0;
+}
+.button:disabled{
+    cursor: not-allowed;
+    pointer-events: stroke;
+}
+
+.error-message{
+    color: red;
+    font-weight: bold;
+}
+.fa-exclamation-circle{
+    color: red;
+}
+input {
+    padding-bottom: 15px;
+}

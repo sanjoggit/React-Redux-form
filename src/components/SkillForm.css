@@ -1,0 +1,58 @@
+.heading{
+    font-weight: bold;
+}
+.input-title{
+    font-size: 13px;
+    font-weight: bold;
+}
+input[type=radio]{
+    visibility: hidden;
+    position: absolute;
+}
+input[type=radio]:checked + .skill-label{
+    background-color: #55ACEE;
+    color: white;
+}
+
+.skill-label{
+   border: 1px solid #667292;
+   text-align: center;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.skill-label:hover{
+    background-color: #55ACEE;
+    cursor: pointer;
+    color: white;
+}
+.skill-row{
+    margin-top: 15px;
+}
+.experience-place-container{
+    margin-top: 20px;
+}
+.discipline-title, .places-title{
+    font-size: 14px;
+    color: #66757F;
+}
+.places-subtitle{
+    font-size: 11px;
+    color: rgb(57, 59, 61);
+}
+
+input[type=checkbox]{
+    margin-right: 5px;
+}
+
+.discipline-checkbox, .places-checkbox{
+    margin-top: 10px;
+}
+
+.button{
+    margin: 30px 10px 20px 0;
+}
+.button:disabled{
+    cursor: not-allowed;
+    pointer-events: stroke;
+}

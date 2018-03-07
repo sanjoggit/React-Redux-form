@@ -1,0 +1,23 @@
+.nav ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.li{
+    padding: 10px;
+    background-color: rgba(13, 13, 221, 0.753);
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.li:hover{
+    color: black;
+}
+.active{
+    color: rgba(13, 13, 221, 0.753);
+    background-color: white;
+    border: 1px solid rgba(13, 13, 221, 0.753);
+}
