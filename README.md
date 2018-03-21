@@ -9,5 +9,7 @@ In this project:
   
   -eslint is used  
   
-  -css modules used  
+  -css modules used 
+  
+  -Flow used
   
