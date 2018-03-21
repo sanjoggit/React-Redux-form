@@ -1,8 +1,9 @@
+//@flow
 import React from 'react';
 import styles from './Header.scss';
 import {NavLink, withRouter} from 'react-router-dom';
 
-class Header extends React.Component{
+class Header extends React.Component<{}>{
 	render(){
         
 		return(

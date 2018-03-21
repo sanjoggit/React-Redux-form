@@ -1,10 +1,32 @@
+// @flow
 import React from 'react';
 import {Field, reduxForm} from 'redux-form';
+import type { FormProps } from 'redux-form';  
 import {renderField} from './RenderField';
 import {validate} from './FormValidation';
 import styles from './SkillForm.css';
 
-class SkillForm extends React.Component{
+type Discipline = {
+	label: string,
+	id: string
+};
+type Experiences = {
+	name: string,
+	label: string,
+	id: string
+};
+type Places = {
+	name: string,
+	label: string,
+	id: string
+};
+type State = {
+	primaryDisciplines: Discipline[],
+	experiences: Experiences[],
+	places: Places[]
+};
+
+class SkillForm extends React.Component<FormProps, State>{
 	constructor(props){
 		super(props);
 		this.state = {

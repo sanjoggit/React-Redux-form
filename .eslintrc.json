@@ -1,19 +1,5 @@
 {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
-    "extends": ["eslint:recommended", "react-app"],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "jsx": true
-        },
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
+    "extends": ["react-app", "plugin:flowtype/recommended"],
     "rules": {
         "indent": [
             "error",

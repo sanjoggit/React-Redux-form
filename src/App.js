@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+/* @flow */
+import React from 'react';
 import './App.scss';
 import BasicForm from './components/BasicForm';
 import { connect } from 'react-redux';
@@ -7,8 +8,11 @@ import PortfolioForm from './components/PortfolioForm';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Header from './components/Header';
 
-class App extends Component {
+type Props={
+	values: mixed
+}
 
+class App extends React.Component<Props>{
 	submit = (values)=>{
 		console.log(values);
 		

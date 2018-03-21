@@ -1,4 +1,16 @@
+//@flow
 import React from 'react';
+
+type Field = {
+	label: string,
+	input: Object,
+	type: string,
+	placeholder: string,
+	className: string,
+	id: string,
+	rows: string,	
+	meta: Object
+};
 
 export const renderField = ({
 	label,
@@ -9,7 +21,7 @@ export const renderField = ({
 	id,
 	rows,	
 	meta:{touched, error, warning}
-})=>{	
+}: Field)=>{	
 	//console.log(input);	
 	return(
 		<div>

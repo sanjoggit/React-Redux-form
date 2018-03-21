@@ -1,0 +1,3 @@
+how to fix scss modules not found?
+-npm install css-module-flow
+-module.name_mapper='.*\(.scss\)' -> 'css-module-flow'(adding this line under option in .flowconfig file)

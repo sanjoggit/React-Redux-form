@@ -3,3 +3,4 @@
 -scss is used for header part only
 -eslint is used
 -css modules used
+-flow used

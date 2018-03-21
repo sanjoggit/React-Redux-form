@@ -1,11 +1,13 @@
+//@flow
 import React from 'react';
 import {Field, reduxForm} from 'redux-form';
+import type { FormProps } from 'redux-form';
 import {validate} from './FormValidation';
 import {renderField} from './RenderField';
 import styles from './BasicForm.css';
 
 
-class BasicForm extends React.Component{
+class BasicForm extends React.Component<FormProps>{
 
 	render(){
 		const { handleSubmit, pristine, reset, submitting, invalid } = this.props;
